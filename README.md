@@ -1,3 +1,6 @@
+> [!NOTE]
+> **Fork WebMarkeThink.** Rispetto all'originale mancano lo script che legge il registro delle sessioni e quello che pubblica nella galleria. Cosa è stato tolto, perché, e cosa controllare a ogni aggiornamento: [FORK.md](FORK.md).
+
 <h1 align="center">Anatomy</h1>
 
 <p align="center"><b>A Claude skill that explains an idea by building it as a real, working object.</b><br>Also runs in OpenCode and Codex.<br>Crafted, interactive isometric figures with many small precise parts, in SVG, WebGL and 3D.</p>
@@ -306,10 +309,6 @@ anatomy/
 
 > [!NOTE]
 > **The 3D mode is beta.** It is proved on its example and one test figure, not yet on a production figure. A small 3D figure runs at 60 fps; the 380-part stress hand measured about 20 fps at 1440 px wide and 13 to 15 fps on a throttled phone profile, on a heavily loaded machine.
-
-## Share a figure
-
-Made something good? Ask your agent to *"publish this figure to the Anatomy community gallery"*. It asks for a title and your GitHub name, shows what it will send, and after your yes opens a pull request on [anatomy-community](https://github.com/wheresryan22/anatomy-community) for you: no git, no forking by hand. Or run `scripts/publish.mjs --submit` yourself. Without a terminal, use the gallery's **Submit a figure** form with a GitHub Gist.
 
 ## Contributing
 

@@ -17,8 +17,9 @@ from the upstream skill. Everything else is unchanged. The default branch is `wm
 | `scripts/publish.test.mjs` | Il suo test |
 | `references/publish.md` | Le istruzioni per l'agente su come pubblicare |
 
-In più: la riga di `SKILL.md` che rimandava a `references/publish.md` e la sezione
-*Share a figure* del README.
+In più: la riga di `SKILL.md` che rimandava a `references/publish.md`, la frase della
+sua `description` che annunciava la pubblicazione nella galleria, e la sezione *Share a
+figure* del README.
 
 Il motivo: questa skill viene usata su lavori di clienti. Il registro delle sessioni
 contiene le loro conversazioni, e una figura fatta per un cliente non va in una galleria
@@ -42,7 +43,7 @@ Il ramo `main` segue l'originale senza modifiche. Il lavoro sta sul ramo `wmt`.
 
    Verifica che i cinque file siano assenti e che nel resto del repository non ci siano
    tracce di ciò che facevano: i loro nomi, `~/.claude/projects`, la galleria
-   `anatomy-community`, l'apertura di una pull request o di un fork con `gh`.
+   `anatomy-community` e la dicitura "community gallery", l'apertura di una pull request o di un fork con `gh`.
 4. Solo dopo, spostare la revisione fissata di chi usa la skill.
 
 Un controllo che passa dice che quelle tracce non ci sono; non sostituisce la lettura

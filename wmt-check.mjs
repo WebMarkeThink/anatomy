@@ -19,6 +19,7 @@ const traces = [
   /\.claude[\\/]projects/,
   /CLAUDE_CODE_SESSION_ID/,
   /anatomy-community/,
+  /community gallery/i,
   /["'`]pr["'`]\s*,\s*["'`]create["'`]/,
   /gh\s+pr\s+create/,
   /["'`]repo["'`]\s*,\s*["'`]fork["'`]/,
